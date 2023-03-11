@@ -66,7 +66,7 @@ val networkConstraints = Constraints.Builder().setRequiredNetworkType(NetworkTyp
 ```kotlin
 val workRequst = OneTimeWorkRequest.Builder(TaskWorker::class.java)
             .setConstraints(networkConstraints)
-            .setInputData(Data.Builder().putString(catAgentIdKey,catAgentIdValue).build())
+            .setInputData(Data.Builder().putString("key","value").build())
             .build()
 ```
 
