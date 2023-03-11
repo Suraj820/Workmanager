@@ -1,7 +1,6 @@
 # Workmanager
 Learning Workmanager
 
-<h3>Work in progress :construction: </h3>
  # what are services?</br>
 Services are application components designed to run in the background, even when
 an app is not running. With the exception of foreground services, which are tied to
