@@ -14,7 +14,9 @@ app restarts due to any issue Work Manager makes sure the scheduled task execute
 
 # When to use WorkManager?
 
-<img scr="backgroundService.png"></img> </br>
+
+<img src ="backgroundService.png" alt="source Modern background execution in Android" height="500"/>
+
 
 # To use WorkManager , we need to know about its Five main classes: </br>
  1) <b>WorkManager :</b>  WorkManager receives work and enqueues it
@@ -85,6 +87,7 @@ workManager.beginWith(workRequst)
 # Reference
 1)<a href="https://developer.android.com/guide/background/persistent/getting-started">developer.android.com</a></br>
 2)<a href="https://blog.mindorks.com/integrating-work-manager-in-android/">blog.mindorks.com</a>
+3)<a href="https://android-developers.googleblog.com/2018/10/modern-background-execution-in-android.html">Modern background execution in Android</a>
 
 
 
