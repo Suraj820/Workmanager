@@ -7,10 +7,14 @@ an app is not running. With the exception of foreground services, which are tied
 a notification, services have no user interface. It is important to note that services
 run on the main thread of their hosting process.</br>
 
-# What is Work Manager?</br>
+# What is WorkManager?</br>
 Work Manager is a library part of Android Jetpack which makes it easy to schedule deferrable,
 asynchronous tasks that are expected to run even if the app exits or device restarts i.e. even your
 app restarts due to any issue Work Manager makes sure the scheduled task executes again.</br>
+
+# When to use WorkManager?
+
+<img scr="backgroundService.png"></img> </br>
 
 # To use WorkManager , we need to know about its Five main classes: </br>
  1) <b>WorkManager :</b>  WorkManager receives work and enqueues it
