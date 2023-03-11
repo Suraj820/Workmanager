@@ -80,7 +80,7 @@ workManager.beginWith(workRequst)
 ```
 # Reference
 1)<a href="https://developer.android.com/guide/background/persistent/getting-started">developer.android.com</a></br>
-2)<a href="https://blog.mindorks.com/integrating-work-manager-in-android/">blog.mindorks.comm</a>
+2)<a href="https://blog.mindorks.com/integrating-work-manager-in-android/">blog.mindorks.com</a>
 
 
 
